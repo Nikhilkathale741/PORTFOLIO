@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import resume from "../assets/nikhil.pdf"
 
 export const AboutSection = () => {
   return (
@@ -12,22 +13,25 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Business Analyst and Data Engineer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I am a fresher with a strong foundation in both Business analyst
+              and Data Engineering. complemented by hands-on experience in data
+              analysis using tools like Python, SQL, Excel, and Power BI.
+              Currently pursuing an MBA in Business Analytics, I aim to bridge
+              the gap between technology and business strategy by delivering
+              impactful, data-driven solutions.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I'm passionate about transforming complex data into meaningful
+              insights and building data-driven solutions that solve real-world
+              problems. I’m constantly learning new tools and techniques in
+              analytics, engineering, and business to stay at the forefront of
+              the ever-evolving data landscape.
             </p>
-
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
@@ -35,7 +39,9 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href={resume}
+                target="_blank"
+                download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -50,10 +56,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Software QA Tester</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                   Ensuring software quality by executing test cases, identifying bugs, and automating tests using Selenium, SQL, and Python.
                   </p>
                 </div>
               </div>
@@ -64,10 +69,11 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Data Analytics</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Skilled in performing data analysis using tools like Excel,
+                    Power BI, and Python to extract insights and support
+                    decision-making.
                   </p>
                 </div>
               </div>
@@ -79,10 +85,11 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Data Engineer</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Familiar with basic data engineering concepts, including
+                    data cleaning, transformation, and working with SQL
+                    databases and ETL pipelines using Python.
                   </p>
                 </div>
               </div>
