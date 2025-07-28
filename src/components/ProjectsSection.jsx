@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "📈💰 Stock Price Prediction - Linear Regression 🚀📊",
+    description: "Built a Gradio-based web app that predicts the next day's stock closing price for Nifty 50 companies using Linear Regression on real-time Yahoo Finance data.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Python", "Pandas", "Scikit-Learn","NumPy","Y-Finance","Gradio"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Nikhilkathale741/-Stock-Price-Prediction---Linear-Regression-",
   },
   {
     id: 2,
